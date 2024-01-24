@@ -2,3 +2,228 @@
   margin: 0;
   padding: 0;
 }
+.homebody{
+  width: 100%;
+  height: 990px;
+  flex-shrink: 0;
+  border: 1px solid #FFF;
+  background: #FFF9E5;
+  box-shadow: -63.733px 63.733px 63.733px 0px rgba(255, 255, 255, 0.10) inset, 63.733px -63.733px 63.733px 0px rgba(179, 179, 179, 0.10) inset;
+  backdrop-filter: blur(63.733333587646484px);
+}
+.nav-bar{
+  display: flex;
+  width: 90%;
+  margin: 5%;
+  height: 42.341px;
+  flex-shrink: 0;
+  justify-content: space-between;
+  }
+  .nav-button{
+    display: flex;
+    width: 297.127px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-shrink: 0;
+    
+  }
+  .nav-button li{
+    list-style: none;
+    
+  }
+  .nav-button a{
+    text-decoration: none;
+    color: #344335;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+  }
+  .hero-section{
+    display: flex;
+    width: 100%;
+    margin: 10%;
+    
+  }
+  .hero h4{
+    width: 535px;
+    color: #344335;
+    font-family: Helvetica;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 43.2px */
+  }
+  .hero h4 span{
+    color: #2B8C34;
+    font-family: Helvetica;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+  }
+  .hero p{
+    width: 527px;
+    height: 68px;
+    flex-shrink: 0;
+    color: #344335;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+  }
+  .banner{
+    width: 557px;
+    height: 546px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: url(./Asset/unsplash.png), lightgray 0px -126.973px / 100% 125.45% no-repeat;      
+  }
+  .aboutbody{
+    width: 100%;
+    height: 1101px;
+    flex-shrink: 0;
+    background: #E2FFDF;
+
+  }
+  .about-hero{
+    width: 100%;
+    display: flex;
+    width: 1131px;
+    padding: 20px 161px 162px 162px;
+    flex-direction: column;
+    align-items: center;
+    gap: 88px;
+  }
+  .about-hero h4{
+    width: 70%;
+    color: #344335;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; 
+  }
+  .about-hero h4 span{
+    color: #2B8C34;
+  }
+  .about-hero p{
+    color: #344335;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .about-footer1{
+    display: inline-flex;
+    padding-left: 28px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 121px;
+  }
+  .about-footer2{
+    display: inline-flex;
+    padding: 15px 36.98px 0px 83px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 72px;
+  }
+  .bus-page{
+    background: #FFF9E5;
+    width: 100%;
+    display: inline-flex;
+    height: 1033px;
+    padding: 92px 135px 91px 122px;
+    align-items: center;
+    gap: 161px;
+    flex-shrink: 0;
+  }
+  .btn{
+    color: #313531;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal
+  }
+  .btn-input{
+    width: 588px;
+    height: 850px;
+  }
+  .bus-page h3{
+    color: #344335;
+    font-family: Helvetica;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .bus-page span{
+    color: #D8A600;
+    font-family: Helvetica;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .bus-page p{
+    color: #344335;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    width: 492px;
+  }
+  .bus-input p{
+    color: #3f4e3f;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.947px;
+  }
+  .bus-input input{
+    width: 588px;
+    height: 60px;
+    border-radius: 10px;
+    background: #D6D3CA;
+  }
+  .bus-input2 p{
+    color: #313531;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.947px;
+
+  }
+  .bus-input2 input{
+    width: 588px;
+    height: 240px;
+    border-radius: 10px;
+    background: #D6D3CA;
+  }
+  .btn-input button{
+    display: flex;
+    width: 588px;
+    height: 70px;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 8px;
+     background: var(--Warning-40, #D8A600);
+  }

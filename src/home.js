@@ -40,8 +40,9 @@ function Home() {
               Join us to make the world a better place one farmer at a time!
             </p>
             </div>
-            <div className=" banner">
-
+            <div className="banner">
+              
+              
             </div>
         </section>
       </body>

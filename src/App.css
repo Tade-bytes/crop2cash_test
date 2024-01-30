@@ -4,7 +4,7 @@
 }
 .homebody {
   width: 100%;
-  height: 50rem;
+  height: 60rem;
   flex-shrink: 0;
   border: 1px solid #fff;
   background: #fff9e5;
@@ -16,13 +16,13 @@
   display: flex;
   width: 90%;
   margin: 5%;
-  height: 42.341px;
+  height: 2.6rem;
   flex-shrink: 0;
   justify-content: space-between;
 }
 .nav-button {
   display: flex;
-  width: 297.127px;
+  width: 18.54rem;
   height: 24px;
   justify-content: center;
   align-items: center;
@@ -44,26 +44,32 @@
 }
 .hero-section {
   display: flex;
+  margin: 10% 5% 0% 5%;
   justify-content: space-evenly;
-  width: 100%;
+  width: 90%;
   padding: 10px;
 }
+.hero{
+  padding-top: 4%;
+  width: 48%;
+}
 .hero h4 {
-  width: 535px;
+  width: 90%;
   color: #344335;
   font-family: Helvetica;
-  font-size: 36px;
+  font-size: 34px;
   font-style: normal;
   font-weight: 700;
   line-height: 120%;
+
 }
 .hero h4 span {
   color: #2b8c34;
 }
 .hero p {
-  width: 527px;
+  width: 30rem;
   height: 68px;
-  padding-top: 2  0px;
+  padding-top: 1.25rem;
   flex-shrink: 0;
   color: #344335;
   font-family: Helvetica;
@@ -74,32 +80,39 @@
 }
 
 .banner {
-  width: 557px;
+  width: 48%;
   height: 546px;
   flex-shrink: 0;
   border-radius: 20px;
-  background: url(./Asset/unsplash.png),
-    lightgray 0px -126.973px / 100% 125.45% no-repeat;
+  
+}
+.banner img{
+  width: 100%;
+  height: 30rem;
 }
 
 .aboutbody {
   width: 100%;
-  /* height: 1101px; */
+  justify-content: center;
+  height: 70rem;
   flex-shrink: 0;
   background: #e2ffdf;
 }
 .about-hero {
   width: 100%;
+  justify-self: center;
   display: flex;
-  width: 1131px;
-  width: 100%;
-  /* padding: 20px 161px 162px 162px; */
+  text-align: center;
+   padding: 20px 161px 162px 162px; 
+   /* background-color: #2b8c34; */
   flex-direction: column;
   align-items: center;
+  justify-self: center;
   gap: 8px;
 }
 .about-hero h4 {
   width: 70%;
+  margin-top: 5%;
   color: #344335;
   text-align: center;
   font-family: Helvetica;
@@ -119,32 +132,98 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+
+}
+.about-hero img{
+  margin: 2% 0 2% 0;
+  width: 13.5rem;
+  height: 13rem;
+}
+.about-footer{
+  width: 100%;
+  height: 8rem;
+  background-color: #2b8c34;
+  margin-bottom: 2.25rem;
 }
 .about-footer1 {
-  width: 100%;
-  background-color: red;
-  display: inline-flex;
-  /* padding-left: 28px; */
+  width: 80%;
+  height: ;
+  display:  inline-flex;
+  padding-left: 28px; 
   justify-content: flex-end;
   align-items: center;
-  /* gap: 121px; */
+   gap: 120px;
+}
+.wenovation{
+  width: 10rem;
+  height: 48px;
+  background: url(./Asset/wenovation.svg), lightgray 50% / cover no-repeat;
+}
+.cari{
+  width: 118px;
+  height: 56px;
+  background: url(./Asset/cari.svg), lightgray 50% / cover no-repeat;
+}
+.labana{
+  width: 58px;
+height: 56px;
+background: url(./Asset/labana.svg), lightgray -4.274px 0px / 112.281% 119.403% no-repeat;
+}
+.giz{
+  width: 10rem;
+height: 56px;
+background: url(./Asset/giz.svg), lightgray -0.14px -10.825px / 101.373% 180.412% no-repeat;
+}
+.image{
+  width: 84px;
+  height: 56px;
+  background: url(./Asset/image.png), lightgray 50% / cover no-repeat;
 }
 .about-footer2 {
   display: inline-flex;
+  width: 100%;
+  height: 4rem;
+  background-color: red;
   padding: 15px 36.98px 0px 83px;
   justify-content: flex-end;
   align-items: center;
   gap: 72px;
 }
+.lead{
+  width: 59px;
+height: 59px;
+  background: url(./Asset/lead.png), lightgray 50% / cover no-repeat;
+}
+.google{
+  width: 164px;
+height: 92.25px;
+  background: url(./Asset/google.png), lightgray 50% / cover no-repeat;
+}
+.katspull{
+  width: 132px;
+height: 132px;
+  background: url(./Asset/katspull.png), lightgray 50% / cover no-repeat;
+}
+.bain{
+  width: 232.556px;
+  height: 133px;
+  background: url(./Asset/bain.png), lightgray 50% / cover no-repeat;
+}
+.catalyst{
+  width: 162.02px;
+  height: 115px;
+  background: url(./Asset/catalyst.png), lightgray 50% / cover no-repeat;
+}
+.business-page{
+  width: 100%;
+
+}
 .bus-page {
-  background: #fff9e5;
-  width: 100vw;
-  display: inline-flex;
-  height: 1033px;
-  padding: 92px 135px 91px 122px;
-  align-items: center;
-  gap: 161px;
-  flex-shrink: 0;
+  background: #FFF;;
+  width: 100%;
+  height: 70rem;
+  
+  
 }
 .btn {
   color: #313531;
@@ -289,9 +368,11 @@
 .agent {
   width: 100%;
   height: 8422px;
+  padding-top: 4rem ;
   background: #fff;
+  justify-self: center;
 }
-.agent h3 {
+.agent-hero h3 {
   color: #344335;
   font-family: Helvetica;
   font-size: 36px;
@@ -300,15 +381,18 @@
   line-height: normal;
 }
 .agent-hero {
-  display: flex;
-  width: 925px;
-  flex-direction: column;
+  /* display: flex; */
+  width: 80%;
+  background-color: #2b8c34;
+  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
+  text-align: center;
   gap: 8px;
 }
 .agent-frame {
-  width: 1178px;
+  width: 100%;
+  background-color: red;
   height: 900px;
   flex-shrink: 0;
   border-radius: 20px;
@@ -380,7 +464,4 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-}
-.gather{
-
 }

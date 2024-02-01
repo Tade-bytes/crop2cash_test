@@ -1,6 +1,7 @@
 import React from 'react'
 import c2c_logo2 from "../Asset/c2c_logo2.png";
-// import Button from './Button';
+import Button from './Button';
+
 const Nav = () => {
   return (
     <div className="nav-bar">
@@ -27,9 +28,10 @@ const Nav = () => {
           </ul>
         </nav>
       </div>
-      <div>
-        {/* <Button id={nav-btn1}className={nav-btn} label={Our Services} />
-        <Button id={nav-btn2} className={nav-btn} label={Our Services}/> */}
+      <div className="nav-btn">
+        <Button>Our Service</Button>
+        <Button>Our Solutions</Button>
+        
       </div>
     </div>
   );

@@ -1,9 +1,10 @@
 import React from "react";
+import Frame9 from "../Asset/Frame9.png"
 
 const Manages =()=>{
     return(
-        <div>
-        <div className="manage">
+        <div className="man">
+            <div className="manage">
             <h2>
               <span>Manage</span> your supply chain <span>digitally</span> with
               us.
@@ -22,7 +23,11 @@ const Manages =()=>{
               days to get the payment for supplying an agro-processor, courtesy
               of an entirely digitised process.
             </p>
+            <img src={Frame9}/>
           </div>
+
         </div>
+        
     )
 }
+export default Manages;

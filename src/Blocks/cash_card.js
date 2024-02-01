@@ -1,4 +1,5 @@
 import React from "react";
+import Group1 from "../Asset/Group1.png"
 
 const CashCard =()=>{
     return(
@@ -13,6 +14,9 @@ const CashCard =()=>{
             </p>
          </div>
           <div className="agent-frame">
+          <div className="agent-phone">
+            <img src={Group1} />
+          </div>
             <div className="agent-frame1">
               <h3>Cash Card</h3>
               <p>
@@ -22,6 +26,7 @@ const CashCard =()=>{
             </div>
           </div>
         </div>
+
 
     );
 }

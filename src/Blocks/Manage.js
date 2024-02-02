@@ -23,7 +23,9 @@ const Manages =()=>{
               days to get the payment for supplying an agro-processor, courtesy
               of an entirely digitised process.
             </p>
-            <img src={Frame9}/>
+            <div></div>
+            <div><img alt="frame" src={Frame9}/></div>
+            
           </div>
 
         </div>

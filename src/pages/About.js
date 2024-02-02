@@ -1,5 +1,5 @@
-import About_hero from '../Blocks/About_hero'
-import About_footer from '../Blocks/About_footer';
+import About_hero from '../Blocks/AboutHero'
+import About_footer from '../Blocks/AboutFooter';
 
 function About() {
   return (

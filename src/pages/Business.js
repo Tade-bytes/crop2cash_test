@@ -1,4 +1,4 @@
-import CashCard from "../Blocks/cash_card";
+import CashCard from "../Blocks/CashCard";
 import Manages from "../Blocks/Manage";
 import Contact from "../Components/Contact";
 import Blog from "../Blocks/Blog";

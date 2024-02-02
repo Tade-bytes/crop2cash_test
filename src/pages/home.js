@@ -14,7 +14,7 @@ function Home() {
         <section className="hero-section">
           <Home_hero />
             <div className="banner">
-              <img src={unsplash} />
+              <img alt='' src={unsplash} />
               
               
             </div>

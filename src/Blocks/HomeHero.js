@@ -1,5 +1,5 @@
 import React from "react";
-const Home_hero =()=>{
+const HomeHero =()=>{
     return(
         
     <div className="hero">
@@ -14,4 +14,4 @@ const Home_hero =()=>{
         
     )
 }
-export default Home_hero;
+export default HomeHero;

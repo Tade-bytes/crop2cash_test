@@ -1,16 +1,16 @@
 import React from "react";
-import cari from '../Asset/cari.svg';
-import labana from '../Asset/labana.svg';
-import wenovation from '../Asset/wenovation.svg';
-import giz from '../Asset/giz.svg';
-import image from '../Asset/image.png';
-import lead from '../Asset/lead.png';
-import google from '../Asset/google.png';
-import katspull from '../Asset/katspull.png';
-import bain from '../Asset/bain.png';
-import catalyst from '../Asset/catalyst.png';
+// import cari from '../Asset/cari.svg';
+// import labana from '../Asset/labana.svg';
+// import wenovation from '../Asset/wenovation.svg';
+// import giz from '../Asset/giz.svg';
+// import image from '../Asset/image.png';
+// import lead from '../Asset/lead.png';
+// import google from '../Asset/google.png';
+// import katspull from '../Asset/katspull.png';
+// import bain from '../Asset/bain.png';
+// import catalyst from '../Asset/catalyst.png';
 
-const About_footer =()=>{
+const AboutFooter =()=>{
     return(
         <div className="about-footer">
          <div className="about-footer1">
@@ -33,4 +33,4 @@ const About_footer =()=>{
 
     )
 }
-export default About_footer;
+export default AboutFooter;

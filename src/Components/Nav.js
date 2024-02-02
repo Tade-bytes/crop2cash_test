@@ -6,7 +6,7 @@ const Nav = () => {
   return (
     <div className="nav-bar">
       <div className="nav-logo">
-        <a href="">
+        <a href="/">
           <img src={c2c_logo2} alt="" />
         </a>
       </div>
@@ -14,16 +14,16 @@ const Nav = () => {
         <nav>
           <ul className="nav-button">
             <li>
-              <a href="">Home</a>
+              <a href="/">Home</a>
             </li>
             <li>
-              <a href="">Agents</a>
+              <a href="/">Agents</a>
             </li>
             <li>
-              <a href="">About</a>{" "}
+              <a href="/">About</a>{" "}
             </li>
             <li>
-              <a href="">Blog</a>
+              <a href="/">Blog</a>
             </li>
           </ul>
         </nav>

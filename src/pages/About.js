@@ -1,13 +1,13 @@
-import About_hero from '../Blocks/AboutHero'
-import About_footer from '../Blocks/AboutFooter';
+import AboutFero from '../Blocks/AboutHero'
+import AboutFooter from '../Blocks/AboutFooter';
 
 function About() {
   return (
     <div>
       <body className="aboutbody">
         <div>
-          <About_hero />
-          <About_footer />
+          <AboutHero />
+          <AboutFooter />
         
        
         

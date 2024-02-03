@@ -1,4 +1,4 @@
-import AboutFero from '../Blocks/AboutHero'
+import AboutHero from '../Blocks/AboutHero'
 import AboutFooter from '../Blocks/AboutFooter';
 
 function About() {

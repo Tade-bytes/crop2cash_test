@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+.App{
+  height: 8422px;
+}
 .homebody {
   width: 100%;
   height: 60rem;
@@ -212,31 +215,39 @@ height: 132px;
 }
 
 .bus-page {
-  background: #FFF;;
+  background: #FFF;
   width: 100%;
-  height: 8422px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
 }
+
+.contact-page{
+  display: inline-flex;
+  height: 1033px;
+  width: 100%;
+  align-items: center;
+  gap: 161px;
+  flex-shrink: 0;
+  background: #FFF9E5;
+  
+}
 .btn {
-  color: #313531;
-  font-feature-settings: "clig" off, "liga" off;
-  font-family: Helvetica;
-  width: 50%;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+  display: flex;
+  width: 434px;
+  padding: 0px 7px 24px 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  padding-left: 40px;
 }
 .btn-input {
-  width: 500px;
-  height: 850px;
+  width: 45%;
   margin-bottom: 20px;
 }
-/* .bus-page h3 {
+.btn h3 {
   color: #344335;
   font-family: Helvetica;
   font-size: 32px;
@@ -244,7 +255,7 @@ height: 132px;
   font-weight: 700;
   line-height: normal;
 }
-.bus-page span {
+.btn span {
   color: #d8a600;
   font-family: Helvetica;
   font-size: 32px;
@@ -252,7 +263,7 @@ height: 132px;
   font-weight: 700;
   line-height: normal;
 }
-.bus-page p {
+.btn p {
   color: #344335;
   font-family: Helvetica;
   font-size: 24px;
@@ -260,7 +271,7 @@ height: 132px;
   font-weight: 400;
    line-height: 150% ;
   width: 492px;
-} */
+}
 .bus-input p {
   color: #3f4e3f;
   font-feature-settings: "clig" off, "liga" off;
@@ -271,10 +282,11 @@ height: 132px;
   line-height: 24.947px;
 }
 .bus-input input {
-  width: 588px;
+  width: 100%;
   height: 60px;
   border-radius: 10px;
   background: #d6d3ca;
+  margin-bottom: 40px;
 }
 .bus-input2 p {
   color: #313531;
@@ -286,14 +298,14 @@ height: 132px;
   line-height: 24.947px;
 }
 .bus-input2 input {
-  width: 588px;
+  width: 100%;
   height: 240px;
   border-radius: 10px;
   background: #d6d3ca;
 }
 .btn-input button {
   display: flex;
-  width: 588px;
+  width: 100%;
   height: 70px;
   padding: 16px 32px;
   justify-content: center;
@@ -321,6 +333,7 @@ height: 132px;
   border-radius: 20px;
   background: #fff9e5;
 }
+
 .blog-card h3 {
   width: 364px;
   height: 55px;
@@ -345,6 +358,7 @@ height: 132px;
 .blog-card1 {
   width: 370px;
   height: 331px;
+  padding-left: 12px;
   flex-shrink: 0;
   border-radius: 20px 20px 0px 0px;
   background: url(./Asset/card1.png), lightgray 50% / cover no-repeat;
@@ -353,11 +367,13 @@ height: 132px;
   width: 370px;
   height: 331px;
   flex-shrink: 0;
+  padding-left: 12px;
   background: url(./Asset/card2.png), lightgray 50% / cover no-repeat;
 }
 .blog-card3 {
   width: 370px;
   height: 331px;
+  padding-left: 12px;
   flex-shrink: 0;
   background: url(./Asset/card3.png), lightgray 50% / cover no-repeat;
 }
@@ -376,6 +392,10 @@ gap: 8px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin-top: 20px;
+}
+.agent-hero span{
+  color: #f8b800;
 }
 .agent-hero p{
   color: #344335;
@@ -395,6 +415,7 @@ width: 925px;
   align-items: center;
   text-align: center;
   gap: 8px;
+  margin-top: 200px;
 }
 .agent-frame {
   width: 90%;
@@ -407,6 +428,7 @@ width: 925px;
   justify-content: center;
   align-items: center;
 }
+
 .agent-phone{
   width: 572.143px;
   height: 590px;
@@ -443,19 +465,22 @@ width: 925px;
 .man{
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 90%;
   align-items: center;
+  border-radius: 20px;
   justify-content: center;
+  padding-top: 40px;
 }
 .manage {
   display: flex;
   width: 100%;
   padding: 0px 3px;
+  margin-top: 200px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 8px;
-  margin-top: 249px;
+
 }
 .manage h2 {
   color: #554203;
@@ -467,11 +492,6 @@ width: 925px;
 }
 .manage span {
   color: #2b8c34;
-  font-family: Helvetica;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
 }
 .manage p{
   color: #344335;
@@ -487,7 +507,7 @@ margin-bottom: 93px;
   border-radius: 20px;
   background: #E2FFDF;
   width: 90%;
-  height: 56rem;
+  padding-top: 40px;
   flex-shrink: 0;
   display: flex;
   flex-direction: column;
@@ -511,4 +531,112 @@ font-style: normal;
 font-weight: 400;
 line-height: 150%; /* 36px */
 width: 712px;
+}
+.footer{
+  background-color: #2B8C34;
+  width: 100%;
+  height: 445px;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+.foot{
+  display: flex;
+  align-items: space-between;
+  justify-content: center;
+  margin-top: 87px;
+  width: 90%;
+  margin-bottom: 147px;
+
+}
+.footer1{
+  width: 50%;
+  height: 210.436px;
+  flex-shrink: 0;
+}
+.footer1 img{
+  width: 207px;
+height: 42.341px;
+flex-shrink: 0;
+}
+.footer1 h3{
+  color: #FCFCFC;
+  font-family: Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.footer1 p{
+  color: #D1B912;
+  font-family: Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 83.333% */
+}
+.footer2{
+  display: flex;
+  width: 50%;
+  color: #d6d3ca;
+}
+.div1{
+  display: inline-flex;
+height: 196px;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 24px;
+flex-shrink: 0;
+}
+.div1 h3{
+  color: #FCFCFC;
+text-align: center;
+font-family: Helvetica;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.footer2 p{
+  color: #D3D3D3;
+text-align: center;
+font-family: Helvetica;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.div2{
+  width: 117px;
+height: 196px;
+flex-shrink: 0;
+}
+.div2 h3{
+  color: #FCFCFC;
+text-align: center;
+font-family: Helvetica;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.div3{
+  display: inline-flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+gap: 24px;
+
+}
+.div3 h3{
+  color: #FCFCFC;
+text-align: center;
+font-family: Helvetica;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }

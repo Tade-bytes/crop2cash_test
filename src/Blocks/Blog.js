@@ -1,8 +1,9 @@
 import React from "react";
+import Button from "../Components/Button";
 const Blog =()=>{
     return(
-        <div className="blogs">
-          <h2>Our Blogs</h2>
+        <div class="my-[50px]">
+          <h2 class="text-[#344335]-center font-Helvetica-9-bold normal">Our Blogs</h2>
           <div className="card-container">
             <div className="blog-card">
               <div className="blog-card1"></div>
@@ -13,7 +14,7 @@ const Blog =()=>{
             </div>
             <div className="blog-card">
               <div className="blog-card2"></div>
-              <h3>Product Spotlight: Beta Farmer Package</h3>
+              <h3>Product Spotlight:<br></br> Beta Farmer Package</h3>
               <p>27th February 2023</p>
             </div>
             <div className="blog-card">
@@ -23,7 +24,9 @@ const Blog =()=>{
               </h3>
               <p>27th February 2023</p>
             </div>
+            
           </div>
+          <Button justify-center align-center>Read More</Button>
         </div>
     )
 }

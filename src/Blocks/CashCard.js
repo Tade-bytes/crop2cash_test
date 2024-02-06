@@ -1,5 +1,6 @@
 import React from "react";
 import Group1 from "../Asset/Group1.png"
+import Button from "../Components/Button";
 
 const CashCard =()=>{
     return(
@@ -23,6 +24,7 @@ const CashCard =()=>{
                 CashCard enables smallholder farmers in rural Nigeria to receive
                 digital payments and build their financial identity.
               </p>
+              <Button>Learn More</Button>
             </div>
           </div>
         </div>

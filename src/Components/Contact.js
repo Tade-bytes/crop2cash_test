@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact =()=>{
     return(
-        <div className="bus-page">
+        <div className="contact-page">
           <div className="btn">
             <h3>
               Let’s <span>Talk</span> Business
@@ -35,7 +35,7 @@ const Contact =()=>{
               <input></input>
             </div>
             <div>
-              <button>Send</button>
+              <button class="mt-5">Send</button>
             </div> 
            </div>
          </div>

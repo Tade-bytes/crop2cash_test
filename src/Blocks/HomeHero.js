@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../Components/Button";
 const HomeHero =()=>{
     return(
         
@@ -10,7 +11,9 @@ const HomeHero =()=>{
     <p>
         Join us to make the world a better place one farmer at a time!
     </p>
+    <Button>Our Solutions</Button>
     </div>
+    
         
     )
 }

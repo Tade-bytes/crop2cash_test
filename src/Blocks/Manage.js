@@ -1,5 +1,6 @@
 import React from "react";
-import Frame9 from "../Asset/Frame9.png"
+import Frame9 from "../Asset/Frame9.png";
+import Button from "../Components/Button";
 
 const Manages =()=>{
     return(
@@ -23,9 +24,9 @@ const Manages =()=>{
               days to get the payment for supplying an agro-processor, courtesy
               of an entirely digitised process.
             </p>
-            <div></div>
-            <div><img alt="frame" src={Frame9}/></div>
-            
+            <div> <Button class="border-solid-1px">Learn More</Button></div>
+            <div class="w-1/3 h-80 mt-24"><img alt="frame" src={Frame9}/></div>
+             
           </div>
 
         </div>

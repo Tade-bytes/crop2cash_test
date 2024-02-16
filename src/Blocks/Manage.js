@@ -24,8 +24,8 @@ const Manages =()=>{
               days to get the payment for supplying an agro-processor, courtesy
               of an entirely digitised process.
             </p>
-            <div  class="mt-14 border-solid-1px" > <Button>Learn More</Button></div>
-            <div class="w-1/3 h-80 mt-24"><img alt="frame" src={Frame9}/></div>
+            <div className="mt-14 mb-[14] " > <Button className="border-[#2B8C34] text-2xl bg-white rounded-lg text-[#2B8C34]" >Learn More</Button></div>
+            <div class="h-80 mt-24"><img alt="frame" src={Frame9}/></div>
              
           </div>
 

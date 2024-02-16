@@ -29,8 +29,8 @@ const Nav = () => {
         </nav>
       </div>
       <div className="nav-btn">
-        <Button className="w-[137px] border-[#2B8C34] text-md rounded-lg text-[#2B8C34]" >Our Service</Button>
-        <Button className="w-[137px] border-[#2B8C34] bg-[#2B8C34] text-md rounded-lg text-white ">Our Solutions</Button>
+        <Button>Our Service</Button>
+        <Button>Our Solutions</Button>
         
       </div>
     </div>

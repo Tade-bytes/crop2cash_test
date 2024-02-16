@@ -11,7 +11,7 @@ const HomeHero =()=>{
     <p>
         Join us to make the world a better place one farmer at a time!
     </p>
-    <Button className="w-[137px] border-[#2B8C34] bg-[#2B8C34] text-md rounded-lg mt-6 px-2 text-white">Our Solutions</Button>
+    <Button>Our Solutions</Button>
     </div>
     
         

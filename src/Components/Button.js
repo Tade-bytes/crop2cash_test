@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Button =({children, className})=>{
+const Button =({children, classname,styles})=>{
     return(
-        <button  className={`${className} m-1 p-2 rounded-sm border-solid border-2 font-Helvetica`} >{children}</button>
-    );
+        <button class="border-solid border-1 round-1"  className={classname } >{children}</button>
+    )
 }
 export default Button;

@@ -1,6 +1,6 @@
-import React from 'react'
+import React from "react";
 import c2c_logo2 from "../Asset/c2c_logo2.png";
-import Button from './Button';
+import Button from "./Button";
 
 const Nav = () => {
   return (
@@ -24,14 +24,25 @@ const Nav = () => {
             </li>
             <li>
               <a href="/">Blog</a>
-            </li>
+            </li> 
+
           </ul>
+         
         </nav>
+        
+      </div>
+      <div>
+         <a href="javascript:void(0);" className="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
       </div>
       <div className="nav-btn">
-        <Button className="w-[137px] border-[#2B8C34] text-md rounded-lg text-[#2B8C34]" >Our Service</Button>
-        <Button className="w-[137px] border-[#2B8C34] bg-[#2B8C34] text-md rounded-lg text-white ">Our Solutions</Button>
-        
+        <Button className="w-[137px] border-[#2B8C34] text-md rounded-lg text-[#2B8C34]">
+          Our Service
+        </Button>
+        <Button className="w-[137px] border-[#2B8C34] bg-[#2B8C34] text-md rounded-lg text-white ">
+          Our Solutions
+        </Button>
       </div>
     </div>
   );

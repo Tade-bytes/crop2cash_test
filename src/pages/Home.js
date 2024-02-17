@@ -11,14 +11,14 @@ function Home() {
             <Nav />
           
         </header>
-        <section className="hero-section">
-          <HomeHero />
+          <section className="hero-section">
+           <HomeHero />
             <div className="banner">
-              <img alt='' src={unsplash} />
+              <img alt='farmer' src={unsplash} />
               
               
             </div>
-        </section>
+        </section> 
       </body>
     </div>
   );

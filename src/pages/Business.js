@@ -10,11 +10,11 @@ function Business() {
     
     <div className="bus-page">
       <CashCard />
-      <Manages />
+      {/* <Manages />
       <Video />
       <Blog />
       <Contact />
-      <Footer />
+      <Footer /> */}
       
       
          

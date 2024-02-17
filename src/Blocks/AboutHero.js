@@ -8,7 +8,7 @@ const AboutHero =()=>{
             We have served over <span>150,000 farmers</span>  across <span>13 states </span> in Nigeria and
             have processed <span>hundreds of thousands</span> of transactions.
           </h4>
-          <img alt='' src={Frame}/>
+          <img alt='motto' src={Frame}/>
           <p>Trusted By Organisations Making Impact</p>
         </div>
 

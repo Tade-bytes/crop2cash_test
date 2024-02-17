@@ -16,7 +16,7 @@ const CashCard =()=>{
          </div>
           <div className="agent-frame">
           <div className="agent-phone">
-            <img alt='' src={Group1} />
+            <img alt='phone' src={Group1} />
           </div>
             <div className="agent-frame1">
               <h3>Cash Card</h3>

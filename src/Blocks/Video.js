@@ -6,12 +6,12 @@ import arrow_right_circle from "../Asset/arrow_right_circle.svg";
 
 const Video = () => {
   return (
-    <div class="flex flex-col justify-center mt-[270px] items-center">
-      <Button className="text-[#2B8C34] font-bold text-2xl leading-5 border-dotted border-[#2B8C34]">View More Products</Button>
-      <div class="mt-[300px] ">
-        <h2 className="text-[#344335] font-Helvetica font-bold text-4xl leading-normal mb-[45px]" >What our <span className="text-[#2B8C34]">users</span> say</h2>
+    <div class="flex flex-col justify-center items-center mt-2 sm:mt-[270px] ">
+      <Button className=" text-[#2B8C34] font-bold text-sm sm:text-2xl leading-4 border-dotted border-[#2B8C34]">View More Products</Button>
+      <div class="mt-5 sm:mt-[300px] ">
+        <h2 className="text-[#344335] font-Helvetica w-[50%]font-bold text-xl sm:text-4xl leading-normal mb-2 sm:mb-[45px]" >What our <span className="text-[#2B8C34]">users</span> say</h2>
         <div>
-          <video poster={Rectangle76} controls>
+          <video  poster={Rectangle76} controls>
             <source src='https://youtu.be/25Pt1AZO9EM?si=BdXbEIstwRVoWFl1' type="video/mp4" />
           </video>
         </div>

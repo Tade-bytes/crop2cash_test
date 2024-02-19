@@ -7,8 +7,8 @@ const Manages =()=>{
         <div className="man">
             <div className="manage">
             <h2>
-              <span>Manage</span> your supply chain <span>digitally</span> with
-              us.
+              <span>Manage</span> your supply chain <span>digitally</span><span className="with" > with
+              us.</span>
             </h2>
             <p>
               We are digitalizing the value chain of food crops by building
@@ -24,7 +24,7 @@ const Manages =()=>{
               days to get the payment for supplying an agro-processor, courtesy
               of an entirely digitised process.
             </p>
-            <div className="mt-14 mb-[14] " > <Button className="border-[#2B8C34] text-2xl bg-white rounded-lg text-[#2B8C34]" >Learn More</Button></div>
+            <div className="m-2"> <Button className="border-[#2B8C34] text-2xl bg-white rounded-lg text-[#2B8C34]" >Learn More</Button></div>
             <div class="h-80 mt-24"><img alt="frame" src={Frame9}/></div>
              
           </div>
@@ -33,4 +33,4 @@ const Manages =()=>{
         
     )
 }
-export default Manages;
+export default Manages

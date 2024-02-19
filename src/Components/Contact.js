@@ -13,7 +13,7 @@ const Contact =()=>{
               up to half an hour during working hours.
             </p>
           </div>
-          <div className="w-[50%] w-[100%] ml-2 flex flex-col gap-3 items-center justify-center"> 
+          <div className="sm:w-[50%] w-[100%] ml-2 flex flex-col gap-3 items-center justify-center"> 
              <div className="text-[#313531] font-Helvetica text-sm font-bold leading-5 mt-2">
               <p>Company Name</p>
               <input className="w-[80%] h-[60px] rounded-lg bg-[#D6D3CA]"></input>

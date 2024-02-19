@@ -704,10 +704,10 @@
    .gather Button{
     margin-top: 0px;
    }
-   .blog-card{
+   .card-container{
     overflow: hidden;
    }
-   .blog-card3, .blog-card2{
+   .blog-card{
     position: relative;
    }
    .blog-card2{

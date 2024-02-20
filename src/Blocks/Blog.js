@@ -15,12 +15,12 @@ const  Blog =()=>{
               </h3>
               <p className="text-[#8C9B8E] text-Helvetica font-normal leading-6 font-base">27th February 2023</p>
             </div>
-            <div className="hidden sm:m-[40px] w-[32%] bg-[#FFF9E5] pb-3">
+            <div className="hidden sm:m-[40px] sm:block w-[32%] bg-[#FFF9E5] pb-3">
               <div className="blog-card2"></div>
               <h3 className="text-[#2B8C34] text-Helvetica font-xl font-bold leading-7">Product Spotlight:<br></br> Beta Farmer Package</h3>
               <p className="text-[#8C9B8E] text-Helvetica font-normal leading-6 font-base">27th February 2023</p>
             </div>
-            <div className="hidden sm:w-[32%] sm:bg-[#FFF9E5] sm:pb-3" >
+            <div className="hidden sm:block sm:w-[32%] sm:bg-[#FFF9E5] sm:pb-3" >
               <div className="blog-card3"></div>
               <h3 className="text-[#2B8C34] text-Helvetica font-xl font-bold leading-7" > 
                 Product Spotlight: Importance of Mechanisation as a service.

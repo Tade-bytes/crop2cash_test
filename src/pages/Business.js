@@ -8,13 +8,13 @@ import Video from "../Blocks/Video";
 function Business() {
   return (
     
-    <div className="bus-page">
+    <div className="w-[100%] flex flex-col bg-[#fff] justify-center items-center gap-1 sm:g-4">
       <CashCard />
       <Manages />
       <Video />
-      <Blog />
+      <Blog /> 
       <Contact />
-      <Footer />
+      <Footer /> 
       
       
          

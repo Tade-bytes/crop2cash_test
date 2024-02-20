@@ -20,6 +20,7 @@ const Footer = () => {
             <p  className="text-[#D3D3D3] font-Helvetica font-sm">About</p>
             <p  className="text-[#D3D3D3] font-Helvetica font-sm">Contact</p>
             <p  className="text-[#D3D3D3] font-Helvetica font-sm">Blog</p>
+            <p  className="text-[#D3D3D3] font-Helvetica font-sm">FAQs</p>
           </div>
           <div className="text-[#FCFCFC] font-Helvetica font-normal leading-normal">
             <h3 className="text-2xl font-Helvetica font-normal leading-normal ">Products</h3>

@@ -7,7 +7,7 @@ const Nav = () => {
     <div className="nav-bar">
       <div className="nav-logo">
         <a href="/">
-          <img src={c2c_logo2} alt="" />
+          <img className="w-[104px] sm:w-[207px]" src={c2c_logo2} alt="logo" />
         </a>
       </div>
       <div>
@@ -32,7 +32,7 @@ const Nav = () => {
         
       </div>
       <div>
-         <a href="javascript:void(0);" className="icon" onclick="myFunction()">
+         <a href="/" className="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
           </a>
       </div>

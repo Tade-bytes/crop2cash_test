@@ -4,7 +4,8 @@ import Button from "../Components/Button";
 
 const Manages =()=>{
     return(
-        <div className="man">
+      <>
+       <div className="man">
             <div className="manage">
             <h2>
               <span>Manage</span> your supply chain <span>digitally</span><span className="with" > with
@@ -26,11 +27,17 @@ const Manages =()=>{
             </p>
             <div className="m-2"> <Button className="border-[#2B8C34] text-2xl bg-white rounded-lg text-[#2B8C34]" >Learn More</Button></div>
             <div class="h-80 mt-24"><img alt="frame" src={Frame9}/></div>
+
+            
              
           </div>
+          
 
         </div>
+        <Button className=" text-[#2B8C34] mt-[10rem] font-bold text-sm sm:text-2xl leading-4 border-dotted border-[#2B8C34]">View More Products</Button>
         
+      </>
+       
     )
 }
 export default Manages

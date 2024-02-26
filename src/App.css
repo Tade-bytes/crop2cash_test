@@ -20,7 +20,6 @@
 }
 .nav-button {
   display: flex;
-  width: 18.54rem;
   height: 24px;
   justify-content: center;
   align-items: center;
@@ -148,6 +147,7 @@
 .about-footer2 {
   display: flex;
   padding-left: 83px;
+  margin-bottom: 30px;
   gap: 72px;
 }
 .wenovation {
@@ -448,7 +448,7 @@
   align-items: center;
   border-radius: 20px;
   justify-content: center;
-  padding-top: 40px;
+  padding-top: 60px;
 }
 .manage {
   display: flex;

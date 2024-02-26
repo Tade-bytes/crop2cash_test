@@ -7,7 +7,7 @@ const Nav = () => {
     <div className="nav-bar">
       <div className="nav-logo">
         <a href="/">
-          <img className="w-[104px] sm:w-[207px]" src={c2c_logo2} alt="logo" />
+          <img className="w-[104px] md:w-[207px]" src={c2c_logo2} alt="logo" />
         </a>
       </div>
       <div>

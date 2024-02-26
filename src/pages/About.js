@@ -4,7 +4,7 @@ import AboutFooter from '../Blocks/AboutFooter';
 function About() {
   return (
     <div>
-      <body className="aboutbody">
+      <body className="w-[100%] justify-center items-center p-2 bg-[#e2ffdf] sm:px-7">
         <div>
           <AboutHero />
           <AboutFooter />

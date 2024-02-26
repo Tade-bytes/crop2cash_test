@@ -16,7 +16,7 @@ const CashCard =()=>{
          </div>
           <div className="flex flex-col-reverse bg-[#FFF9E5] p-7 rounded-[20px] w-[90%] justify-center items-center sm:flex sm:flex-row sm:justify-between">
           <div className="w-[100%] m-3 sm:w-[45%] ">
-            <img className=" h-[590px] sm:w-[100%] sm:mt-32 mt-3" alt='phone'  src={Group1} />
+            <img className="sm:w-[100%] sm:mt-32 mt-3" alt='phone'  src={Group1} />
           </div>
             <div className="flex flex-col items-center sm:items-start sm:justify-start justify-center  w-[100%] gap-2 sm:flex sm:w-[45%] sm:mb-[500px] ">
               <h3 className="hidden text-[#F8B800] text-Helvetica sm:text-3xl font-bold leading-normal sm:block">Cash Card</h3>

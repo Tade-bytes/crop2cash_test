@@ -7,7 +7,7 @@ const Manages =()=>{
       <>
        <div className="flex flex-col pt-[60px] w-[100%] bg-[#E2FFDF] sm:bg-[#FFF] items-center justify-center sm:rounded-2xl">
             <div className="manage">
-            <h2 className="text-[#554203] text-Helvetica font-bold text-4xl leading-normal">
+            <h2 className="text-[#554203] text-xl text-center mb-3 text-Helvetica sm:font-bold sm:text-4xl sm:leading-normal">
               <span>Manage</span> your supply chain <span>digitally</span><span className="with" > with
               us.</span>
             </h2>

@@ -10,22 +10,29 @@ const  Blog =()=>{
           
             <div className="sm:w-[32%] bg-[#FFF9E5] sm:pb-3">
               <div className="blog-card1"></div>
+              <div className="p-3">
               <h3 className="text-[#2B8C34] text-Helvetica font-xl font-bold leading-7">
                 Farm Inputs: The essential ingredient of successful farming
               </h3>
               <p className="text-[#8C9B8E] text-Helvetica font-normal leading-6 font-base">27th February 2023</p>
+              </div>
+              
             </div>
             <div className="hidden sm:m-[40px] sm:block w-[32%] bg-[#FFF9E5] pb-3">
               <div className="blog-card2"></div>
+              <div className="p-3">
               <h3 className="text-[#2B8C34] text-Helvetica font-xl font-bold leading-7">Product Spotlight:<br></br> Beta Farmer Package</h3>
               <p className="text-[#8C9B8E] text-Helvetica font-normal leading-6 font-base">27th February 2023</p>
+              </div>
             </div>
             <div className="hidden sm:block sm:w-[32%] sm:bg-[#FFF9E5] sm:pb-3" >
               <div className="blog-card3"></div>
+              <div className="p-3">
               <h3 className="text-[#2B8C34] text-Helvetica font-xl font-bold leading-7" > 
                 Product Spotlight: Importance of Mechanisation as a service.
               </h3>
               <p className="text-[#8C9B8E] text-Helvetica font-normal leading-6 font-base">27th February 2023</p>
+              </div>
             </div>
             
           </div>

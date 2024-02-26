@@ -4,9 +4,9 @@ import Social from "../Asset/Social.svg"
 
 const Footer = () => {
   return (
-    <div className="bg-[#2B8C34] w-[100%] p-2 flex flex-col">
+    <div className="bg-[#2B8C34] w-[100%] p-5 flex flex-col">
       <div className="flex flex-col sm:flex-row sm:justify-between">
-        <div className="w-[10rem] sm:w-[363px] my-10 p-2">
+        <div className="w-[10rem] sm:w-[363px] my-10 ml-5 p-2">
           
           <img src={c2c_logo2} alt="" />
           
@@ -14,7 +14,7 @@ const Footer = () => {
           <p className=" text-[#D1B912] font-normal leading-normal text-xl sm:text-2xl font-Helvetica">Get Started now</p>
           <div className="mt-2 w-[115.123p] h-[22px]"> <img src={Social}/></div>
         </div>
-        <div className="flex flex-col sm:flex-row mt-2 sm:mt-[87px] justify-evenly w-[50%] gap-1">
+        <div className="flex flex-col sm:flex-row mt-2 sm:mt-[87px] justify-evenly px-10 w-[50%] gap-1">
           <div className="text-[#FCFCFC]">
             <h3 className="text-2xl font-Helvetica font-normal leading-normal ">Company</h3>
             <p  className="text-[#D3D3D3] font-Helvetica font-sm">About</p>
@@ -35,7 +35,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="text-[#FCFCFC] align-center my-5 text-sm font-normal leading-6 font-Helvetica text-center"> <p>Copyright © 2023 - All Rights Reserved - Crop2Cash </p></div>
+      <div className="text-[#FCFCFC] align-center my-12 text-sm font-normal leading-6 font-Helvetica text-center"> <p>Copyright © 2023 - All Rights Reserved - Crop2Cash </p></div>
      
      
     </div>

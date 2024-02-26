@@ -6,7 +6,7 @@ const  Blog =()=>{
           <div className="w-[100%] pl-5">
           <h2 className="text-[#344335] text-lg sm:text-2xl  leading-normal font-bold mb-3">Our Blogs</h2>
           </div>
-          <div className="flex overflow-hidden w-[100%] justify-between items-center m-7 ">
+          <div className="flex overflow-hidden w-[80%] sm:w-[100%] justify-between items-center m-7 ">
           
             <div className="sm:w-[32%] bg-[#FFF9E5] sm:pb-3">
               <div className="blog-card1"></div>

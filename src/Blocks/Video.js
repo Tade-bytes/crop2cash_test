@@ -10,7 +10,7 @@ const Video = () => {
     
     <div class="flex flex-col mt-2 w-[100%] sm:justify-center sm:items-center sm:mt-[270px] ">
       <div class="mt-5 w-[100%] sm:w-[80%] ">
-        <h2 className="text-[#344335] ml-2 w-[100%] font-normal font-Helvetica sm:w-[50%] sm:font-bold text-xl sm:text-4xl leading-normal mb-2 sm:mb-6">
+        <h2 className="text-[#344335] pl-2 w-[100%] font-normal font-Helvetica sm:w-[50%] sm:font-bold text-xl sm:text-4xl leading-normal mb-2 sm:mb-6">
           What our <span className="text-[#2B8C34]">users</span> say
         </h2>
         {/* <div className="">

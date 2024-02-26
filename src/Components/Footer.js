@@ -6,12 +6,12 @@ const Footer = () => {
   return (
     <div className="bg-[#2B8C34] w-[100%] p-2 flex flex-col">
       <div className="flex flex-col sm:flex-row sm:justify-between">
-        <div className="w-[363px] mt-20 mx-2 p-3">
+        <div className="w-[10rem] sm:w-[363px] my-10 p-2">
           
           <img src={c2c_logo2} alt="" />
           
           <h3 className="my-2 text-[#FCFCFC] font-normal leading-normal font-Helvetica">Crop2Cash- Grow it, Cash it.</h3>
-          <p className=" text-[#D1B912] font-normal leading-normal text-2xl font-Helvetica">Get Started now</p>
+          <p className=" text-[#D1B912] font-normal leading-normal text-xl sm:text-2xl font-Helvetica">Get Started now</p>
           <div className="mt-2 w-[115.123p] h-[22px]"> <img src={Social}/></div>
         </div>
         <div className="flex flex-col sm:flex-row mt-2 sm:mt-[87px] justify-evenly w-[50%] gap-1">

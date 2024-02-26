@@ -12,10 +12,10 @@ function Business() {
       <CashCard />
       <Manages />
       <Video />
-      <Blog /> 
+       <Blog /> 
       <Contact />
       <Footer /> 
-      
+       
       
          
         

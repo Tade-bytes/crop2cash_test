@@ -18,7 +18,7 @@ const Video = () => {
     {play ? <Play/>  : (<>
       <div className="relative sm:w-[100%] h-[90vh]"  onClick={()=> setPlay(true)}>
         <img  className="absolute h-[80%] w-[100%] mt-5 rounded-none" src={Rectangle76} alt="video"/>
-        <div>
+        <div className="flex flex-col">
           <p className="absolute text-[#FCFCFC] text-Helvetica w-[200px] mt-20 sm:w-[452px] text-xl font-normal leading-5 sm:my-[9rem] ml-3 ">“I started using Crop2Cash in 2020 during the COVID-19 pandemic.
           Crop2cash was the only way I could find and pay for high quality
           fertilizer and inputs. I did all of it on my mobile phone.” </p>
